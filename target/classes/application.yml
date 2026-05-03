@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: my-spring-boot-app
+
+server:
+  port: 8081
+
+security:
+  user:
+    name: user
+    password: password
+    roles: USER
+
+# Additional configurations can be added here as needed.
